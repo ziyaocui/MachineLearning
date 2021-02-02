@@ -7,7 +7,7 @@ This project use dataset related to India air quality in the past 25 years, purp
 SPM, RSPM, CO2, SO2 are important factors that can cause air pollution in India, using these variables to analyze different pollution level in each state in India.
 
 ## Instruction
-Please download the India_Air_Quality_CA01.ipynb and data.csv file and upload into Google Colab to run the code.
+Please download the India_Air_Quality_CA01.ipynb and data.csv (link below) file and upload into Google Colab to run the code.
 
 ## Installation instructions
 Use the following packages:
@@ -34,6 +34,9 @@ import matplotlib.pyplot as plt  #Plotting
 
 ## Colab access
 https://drive.google.com/file/d/1IUaEthmXs5knNQPjq7qpSQNUZrE2Rb05/view?usp=sharing
+
+## Data
+https://www.kaggle.com/shrutibhargava94/india-air-quality-data
 
 ## Contact information
 Name: Ziyao Cui

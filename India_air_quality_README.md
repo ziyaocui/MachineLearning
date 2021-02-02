@@ -30,10 +30,13 @@ import matplotlib.pyplot as plt  #Plotting
 ## Operating instructions
 This first step I did is to improt all packages that I will use later. And I import the 'data_csv' to cloab and name the raw data 'df'.
 Next step is initial data investigation section, in this part I summarized basic information about the raw data df.
-- df.describe  #output will be statistical description of the data.
-- df.shape  #output is the total number of rows and columns of the data which is 435742 rows and 13 columns.
-- df.count()  #output shows how many non-null numbers each column.
-- df.isnull().sum()  ##output shows how many null numbers each column.
+```python
+df.describe  #output will be statistical description of the data.
+df.shape  #output is the total number of rows and columns of the data which is 435742 rows and 13 columns.
+df.count()  #output shows how many non-null numbers each column.
+df.isnull().sum()  ##output shows how many null numbers each column.
+
+```
 
 
 

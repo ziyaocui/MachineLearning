@@ -1,14 +1,13 @@
-# Machine Learning CA01
-Ziyao Cui
-
 ## Name of project
 India Air Quality
 
 ## Project Overview 
-This project use dataset related to India air quality in the past 25 years, purpose of this project is to understand air pollution level in India. There are different factors that can cause air pollution in India.
+This project use dataset related to India air quality in the past 25 years, purpose of this project is to understand air pollution level in India. 
+
+SPM, RSPM, CO2, SO2 are important factors that can cause air pollution in India, using these variables to analyze different pollution level in each state in India.
 
 ## Instruction
-Please download the India_Air_Quality_CA01.ipynb file and upload into Google Colab to run the code.
+Please download the India_Air_Quality_CA01.ipynb and data.csv file and upload into Google Colab to run the code.
 
 ## Installation instructions
 Use the following packages:
@@ -28,18 +27,15 @@ import matplotlib.pyplot as plt  #Plotting
 ```
 
 ## Operating instructions
-This first step I did is to improt all packages that I will use later. And I import the 'data_csv' to cloab and name the raw data 'df'.
-Next step is initial data investigation section, in this part I summarized basic information about the raw data df.
-```python
-df.describe  #output will be statistical description of the data.
-df.shape  #output is the total number of rows and columns of the data which is 435742 rows and 13 columns.
-df.count()  #output shows how many non-null numbers each column.
-df.isnull().sum()  ##output shows how many null numbers each column.
+1. This first step I did is to improt all packages that I will use later. And I import the 'data_csv' to cloab and name the raw data 'df'.
+2. Next step is initial data investigation section, in this part I summarized basic information about the raw data df.
+3. Next clean the data by dropping less important columns and drop missing values. 
+4. Plot important variables and compare them. 
 
-```
+## Colab access
+https://drive.google.com/file/d/1IUaEthmXs5knNQPjq7qpSQNUZrE2Rb05/view?usp=sharing
 
-
-
-
+## Contact information
+Name: Ziyao Cui
 
 
